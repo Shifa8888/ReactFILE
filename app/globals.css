@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-circle {
+    background-color: #4CAF50; /* Green circle */
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .logo-text {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .plans-button {
+    background-color: #e0f7e9;
+    color: #4CAF50;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+    margin-left: 15px;
+    transition: color 0.2s ease;
+  }
+  
+  .icon-button:hover {
+    color: #000;
+  }
+  
+  .profile-icon {
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+
+     .app {
+        display: flex;
+        height: 100vh;
+      }
+      
+      .sidebar {
+        width: 220px;
+        background-color: #f2f5f9;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .team-name {
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+      
+      .menu {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .menu li {
+        padding: 10px 0;
+        font-size: 16px;
+        color: #333;
+        cursor: pointer;
+      }
+      
+      .menu li:hover {
+        color: #007bff;
+      }
+      
+      /* Main Content */
+      .main-content {
+        flex: 1;
+        padding: 20px;
+      }
+      
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .main-title {
+        font-size: 24px;
+        font-weight: 600;
+      }
+      
+      .controls {
+        display: flex;
+      }
+      
+      .control-btn {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 8px 12px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+      
+      .control-btn:hover {
+        background-color: #218838;
+      }
+      
+      .table-controls {
+        display: flex;
+        margin-top: 15px;
+      }
+      
+      .hide-btn, .group-btn {
+        background-color: #f2f2f2;
+        color: #333;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      
+      .hide-btn:hover, .group-btn:hover {
+        background-color: #e0e0e0;
+      }
+      
+      .task-table {
+        margin-top: 20px;
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      table th, table td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      .status {
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+      
+      .status.ready {
+        background-color: rgb(33, 110, 223);
+  color: white;
+  width: 150px; 
+  height: 50px; 
+  padding: 10px; 
+  font-size: 14px; 
+      }
+      
+      .status.progress {
+        background-color: #fff3cd;
+        color: #856404;
+      }
+      
+      .status.pending {
+        background-color: #f8d7da;
+        color: #721c24;
+      }
+      
+      .priority {
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-weight: bold;
+        color: white;
+      }
+      
+      .priority.critical {
+        background-color: #dc3545;
+      }
+      
+      .priority.high {
+        background-color: #ffc107;
+      }
+      
+      .priority.low {
+        background-color: #6c757d;
+      }
+      
+      .icon {
+        font-size: 20px;
+      }
