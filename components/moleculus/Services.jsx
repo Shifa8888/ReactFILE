@@ -3,7 +3,7 @@ import '../../app/globals.css';
 
 const services = [
   {
-    image: "/images/Brth.png", 
+    image: "/images/brth.png", 
     icon: (
       <svg
         className="w-6 h-6 text-[#c88f51]"
